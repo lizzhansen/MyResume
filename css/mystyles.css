@@ -1,0 +1,67 @@
+.bgimg1 {
+  background-image: url("../myimg/20241013_185427.jpg") !important; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  height: 80vh;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center;     /* Vertical centering */
+  text-align: center;
+}
+    
+.bold {
+    font-weight: bold;
+}
+.backgroundblue {
+    background-color: #407ed492 !important;
+}
+.home{
+    color: rgb(157, 63, 8);
+}
+.exptext{
+    color: white;
+}
+.expborder{
+    border-image: auto 1px;
+    color: white;
+}
+
+body {
+      font-family: 'Montserrat', sans-serif;
+      padding-top: 70px; /* for fixed navbar */
+      background-color: #f8f9fa; /* light grey background */
+    }
+    .masthead {
+      padding: 100px 0;
+      background-color: #007BFF; /* Bootstrap primary blue */
+      color: white;
+      text-align: center;
+    }
+    .masthead-heading {
+      font-family: 'Roboto Slab', serif;
+      font-size: 5rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: white;    /* Optional: if needed for visibility */
+      margin-bottom: 1rem;
+    }
+    #about-me {
+      padding: 60px 15px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .home-link {
+      color: #212529 !important;
+    }
+.text-box {
+  background-color: rgba(255, 255, 255, 0.8); 
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); 
+  border: 2px solid black;
+}
+.contacttxt {
+    color: black;
+}
